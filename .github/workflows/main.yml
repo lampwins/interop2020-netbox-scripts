@@ -38,4 +38,4 @@ jobs:
           # source to copy
           local: scripts/*
           # destination for copy
-          remote: /opt/netbox/netbox/scripts/
+          remote: /opt/netbox/netbox/scripts
