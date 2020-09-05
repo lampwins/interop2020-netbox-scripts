@@ -34,7 +34,7 @@ jobs:
           # ssh remote user
           user: netbox
           # content of ssh private key. ex raw content of ~/.ssh/id_rsa
-          key: "{{ $secrets.NETBOX_SSH_KEY }}"
+          key: "${{ secrets.NETBOX_SSH_KEY }}"
           # source to copy
           local: scripts/*
           # destination for copy
