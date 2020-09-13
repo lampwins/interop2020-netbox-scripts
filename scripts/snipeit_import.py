@@ -29,8 +29,8 @@ class SnipeITImportScript(Script):
 
         # Load the Snipe IT API token from file
         with open("/home/netbox/snipeit_token.json", "r") as f:
-            data = json.load(f)
-        token = data['token']
+            token_data = json.load(f)
+        token = token_data['token']
 
         # HTTP headers for each request to Snipe IT
         headers = {
