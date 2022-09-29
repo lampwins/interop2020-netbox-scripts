@@ -22,7 +22,6 @@ class SnipeITImportScript(Script):
     site = ObjectVar(
         description="Site",
         model=Site,
-        display_field='name'
     )
 
     def run(self, data, commit):

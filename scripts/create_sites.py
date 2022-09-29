@@ -25,7 +25,6 @@ class NewBranchScript(Script):
     switch_model = ObjectVar(
         description="Access switch model",
         model=DeviceType,
-        display_field='model',
         query_params={
             'manufacturer_id': '$manufacturer'
         }
